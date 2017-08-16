@@ -6,6 +6,7 @@
 Shelf::Shelf(std::string filePath) : filePath(filePath) {
     laodBooks();
 }
+
 Shelf::~Shelf() {
     saveBooks();
 }
@@ -27,7 +28,9 @@ void Shelf::laodBooks() {
 void Shelf::addItem(std::string titel, std::string author, std::string pubDate, std::string publisher,
                     std::string synopsis, unsigned int pageCount) {
     Book book(titel, author, pubDate, publisher, synopsis, pageCount);
-    shelf.push_back(book);
+    if (!checkIfBookExists(book)) {
+        shelf.push_back(book);
+    }
 }
 
 
@@ -71,13 +74,29 @@ void Shelf::saveBooks() {
     writeFile.open(filePath);
     for (auto book : shelf) {
         std::string saveLine =
-                book.titel + ";" + book.author + ";" + book.pubDate + ";" + book.publisher + ";" + book.synopsis + ";" +
-                std::to_string(book.pageCount) + "\n";
+                book.getTitle() + ";" + book.getAuthor() + ";" + book.getPubDate() + ";" + book.getPublisher() + ";" +
+                book.getSynopsis() + ";" +
+                std::to_string(book.getPageCount()) + "\n";
         writeFile << saveLine;
 
 
     }
     writeFile.close();
+}
 
+
+bool Shelf::checkIfBookExists(Book newBook) {
+    bool exists = false;
+    for (auto book : shelf) {
+        if (newBook.getAuthor() == book.getAuthor() && newBook.getTitle() == book.getTitle() &&
+            newBook.getPublisher() == book.getPublisher() &&
+            newBook.getPubDate() == book.getPubDate() && newBook.getPageCount() == book.getPageCount() &&
+            newBook.getSynopsis() == book.getSynopsis()) {
+            exists = true;
+
+
+        }
+    }
+    return exists;
 
 }

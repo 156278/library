@@ -20,6 +20,8 @@ public:
 
 
 private:
+    bool checkIfBookExists(Book newBook);
+
     void laodBooks();
 
     void saveBooks();
