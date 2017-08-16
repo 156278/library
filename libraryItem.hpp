@@ -9,7 +9,7 @@ class LibraryItem {
 public:
     LibraryItem(std::string titel, std::string author, std::string pubDate, std::string publisher);
 
-    void showAll() const;
+    virtual void showAll() const;
 
 
 protected:

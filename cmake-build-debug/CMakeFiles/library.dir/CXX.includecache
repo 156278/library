@@ -39,6 +39,10 @@ book.hpp
 /home/gawain/CLionProjects/library/book.hpp
 
 /home/gawain/CLionProjects/library/shelf.cpp
+iostream
+-
+fstream
+-
 shelf.hpp
 /home/gawain/CLionProjects/library/shelf.hpp
 book.hpp
@@ -49,4 +53,6 @@ vector
 -
 libraryItem.hpp
 /home/gawain/CLionProjects/library/libraryItem.hpp
+book.hpp
+/home/gawain/CLionProjects/library/book.hpp
 

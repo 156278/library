@@ -3,7 +3,7 @@
 
 
 Book::Book(std::string titel, std::string author, std::string pubDate, std::string publisher, std::string synopsis,
-           unsigned int pageCount) : LibraryItem(titel, author, pubDate, publisher), synopsis(synopsis),
+           unsigned int pageCount) : titel(titel), author(author), pubDate(pubDate), publisher(publisher), synopsis(synopsis),
                                      pageCount(pageCount) {
 
 

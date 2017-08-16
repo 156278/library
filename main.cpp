@@ -5,12 +5,9 @@
 
 int main() {
 
-    Book book("GoT", "George R.R. Martin", "08/08/2008", "Bantam", "", 12313);
-    Shelf shelf;
-    shelf.addItem(book);
+    Shelf shelf("../save.txt");
     shelf.addItem("Hans", "Christian", "10/10/2008", "Anderson", "", 2);
-    
-    shelf.showShelf();
 
+    shelf.showShelf();
     return 0;
 }
