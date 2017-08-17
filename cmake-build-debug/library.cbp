@@ -99,6 +99,12 @@
 		<Unit filename="/home/gawain/CLionProjects/library/main.cpp">
 			<Option target="library"/>
 		</Unit>
+		<Unit filename="/home/gawain/CLionProjects/library/menu.cpp">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="/home/gawain/CLionProjects/library/menu.hpp">
+			<Option target="library"/>
+		</Unit>
 		<Unit filename="/home/gawain/CLionProjects/library/shelf.cpp">
 			<Option target="library"/>
 		</Unit>

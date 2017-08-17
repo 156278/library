@@ -11,7 +11,14 @@ CMakeFiles/library.dir/libraryItem.cpp.o: ../libraryItem.hpp
 CMakeFiles/library.dir/main.cpp.o: ../book.hpp
 CMakeFiles/library.dir/main.cpp.o: ../libraryItem.hpp
 CMakeFiles/library.dir/main.cpp.o: ../main.cpp
+CMakeFiles/library.dir/main.cpp.o: ../menu.hpp
 CMakeFiles/library.dir/main.cpp.o: ../shelf.hpp
+
+CMakeFiles/library.dir/menu.cpp.o: ../book.hpp
+CMakeFiles/library.dir/menu.cpp.o: ../libraryItem.hpp
+CMakeFiles/library.dir/menu.cpp.o: ../menu.cpp
+CMakeFiles/library.dir/menu.cpp.o: ../menu.hpp
+CMakeFiles/library.dir/menu.cpp.o: ../shelf.hpp
 
 CMakeFiles/library.dir/shelf.cpp.o: ../book.hpp
 CMakeFiles/library.dir/shelf.cpp.o: ../libraryItem.hpp

@@ -15,23 +15,27 @@ void Shelf::laodBooks() {
     std::ifstream infile(filePath);
     std::string line;
     while (std::getline(infile, line)) {
-        shelf.push_back(readLine(line));
+        addItem(readLine(line));
     }
 
 }
 
-/*void Shelf::addItem(LibraryItem libraryItem) {
-    shelf.push_back(libraryItem);
+void Shelf::addItem(Book book) {
+    if (!checkIfBookExists(book)) {
+        shelf.push_back(book);
 
-}*/
+    }
+}
+
 
 void Shelf::addItem(std::string titel, std::string author, std::string pubDate, std::string publisher,
                     std::string synopsis, unsigned int pageCount) {
     Book book(titel, author, pubDate, publisher, synopsis, pageCount);
-    if (!checkIfBookExists(book)) {
-        shelf.push_back(book);
-    }
+    addItem(book);
+
 }
+
+
 
 
 void Shelf::showShelf() {

@@ -37,6 +37,20 @@ shelf.hpp
 /home/gawain/CLionProjects/library/shelf.hpp
 book.hpp
 /home/gawain/CLionProjects/library/book.hpp
+menu.hpp
+/home/gawain/CLionProjects/library/menu.hpp
+
+/home/gawain/CLionProjects/library/menu.cpp
+iostream
+-
+menu.hpp
+/home/gawain/CLionProjects/library/menu.hpp
+shelf.hpp
+/home/gawain/CLionProjects/library/shelf.hpp
+
+/home/gawain/CLionProjects/library/menu.hpp
+shelf.hpp
+/home/gawain/CLionProjects/library/shelf.hpp
 
 /home/gawain/CLionProjects/library/shelf.cpp
 iostream

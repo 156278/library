@@ -12,6 +12,13 @@ CMakeFiles/library.dir/main.cpp.o
  /home/gawain/CLionProjects/library/book.hpp
  /home/gawain/CLionProjects/library/libraryItem.hpp
  /home/gawain/CLionProjects/library/main.cpp
+ /home/gawain/CLionProjects/library/menu.hpp
+ /home/gawain/CLionProjects/library/shelf.hpp
+CMakeFiles/library.dir/menu.cpp.o
+ /home/gawain/CLionProjects/library/book.hpp
+ /home/gawain/CLionProjects/library/libraryItem.hpp
+ /home/gawain/CLionProjects/library/menu.cpp
+ /home/gawain/CLionProjects/library/menu.hpp
  /home/gawain/CLionProjects/library/shelf.hpp
 CMakeFiles/library.dir/shelf.cpp.o
  /home/gawain/CLionProjects/library/book.hpp

@@ -10,7 +10,7 @@ public:
 
     ~Shelf();
 
-    //void addItem(LibraryItem libraryItem);
+    void addItem(Book book);
 
     void
     addItem(std::string titel, std::string author, std::string pubDate, std::string publisher, std::string synopsis,

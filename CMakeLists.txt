@@ -3,5 +3,5 @@ project(library)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp libraryItem.cpp book.cpp shelf.cpp)
+set(SOURCE_FILES main.cpp libraryItem.cpp book.cpp shelf.cpp menu.cpp)
 add_executable(library ${SOURCE_FILES})
