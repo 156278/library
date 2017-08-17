@@ -46,12 +46,9 @@ int Book::getPageCount() const {
 }
 
 void Book::showAll() const {
-    std::cout << "Titel: " << this->titel << std::endl;
-    std::cout << "Author: " << this->author << std::endl;
-    std::cout << "Publishing date: " << this->pubDate << std::endl;
-    std::cout << "Publisher: " << this->publisher << std::endl;
-    std::cout << "Synopsis: " << this->synopsis << std::endl;
-    std::cout << "# of pages: " << this->pageCount << std::endl;
+    std::cout << "Titel: " << this->titel << " Author: " << this->author << " Publishing date: " << this->pubDate
+              << " Publisher: " << this->publisher << " Synopsis: " << this->synopsis << " # of pages: "
+              << this->pageCount << std::endl;
 
 
 }

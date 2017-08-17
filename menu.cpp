@@ -1,10 +1,17 @@
 
 #include <iostream>
+#include <climits>
 #include "menu.hpp"
 #include "shelf.hpp"
 
 Menu::Menu() {
     this->shelf = new Shelf("../save.txt");
+
+}
+
+Menu::~Menu() {
+
+    delete shelf;
 
 }
 
@@ -50,15 +57,21 @@ void Menu::addNewBook() {
     unsigned int pageCount;
     clear();
     screenBar();
-    std::cout << "Plese insert title: ";
-
-    std::cin >> titel;
-    std::cin >> titel;
-    std::cin >> titel;
-    std::cin >> titel;
-    std::cin >> titel;
-    std::cin >> titel;
-
+    std::cin.ignore();
+    std::cin.clear();
+    std::cout << "Plese insert title: " << std::endl;
+    std::getline(std::cin, titel);
+    std::cout << "Plese insert the Author's Name: " << std::endl;
+    std::getline(std::cin, author);
+    std::cout << "Plese insert publication date: " << std::endl;
+    std::getline(std::cin, pubDate);
+    std::cout << "Plese insert the name of the publisher: " << std::endl;
+    std::getline(std::cin, publisher);
+    std::cout << "Plese insert a synopsis: " << std::endl;
+    std::getline(std::cin, synopsis);
+    std::cout << "Plese insert the number of pages: " << std::endl;
+    std::cin >> pageCount;
+    shelf->addItem(titel, author, pubDate, publisher, synopsis, pageCount);
 
 }
 
@@ -69,4 +82,5 @@ void Menu::screenBar() {
 void Menu::clear() {
     std::cout << std::string(30, '\n');
 }
+
 

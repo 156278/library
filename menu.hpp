@@ -6,6 +6,7 @@ class Menu {
 
 public:
     Menu();
+    ~Menu();
 
     void welcomeView();
 
