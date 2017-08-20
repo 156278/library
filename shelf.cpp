@@ -5,6 +5,7 @@
 
 Shelf::Shelf(std::string filePath) : filePath(filePath) {
     laodBooks();
+
 }
 
 Shelf::~Shelf() {
@@ -25,6 +26,7 @@ void Shelf::addItem(Book book) {
         shelf.push_back(book);
 
     }
+    nrOfBooks = shelf.size();
 }
 
 
@@ -82,6 +84,8 @@ void Shelf::delBook(int bookNrToDel) {
 
         this->shelf.erase(this->shelf.begin() + (bookNrToDel - 1));
     }
+    nrOfBooks = shelf.size();
+
 }
 
 void Shelf::saveBooks() {
@@ -103,6 +107,23 @@ void Shelf::saveBooks() {
 
     }
     writeFile.close();
+}
+
+std::vector<int> Shelf::search(std::string searchStr) {
+    std::vector<int> results;
+
+    for (auto i = 0; i < shelf.size(); i++) {
+
+
+        if (searchStr == shelf[i].getAuthor() || searchStr == shelf[i].getPubDate() ||
+            searchStr == shelf[i].getTitle()) {
+
+            results.push_back(i + 1);
+        }
+
+    }
+    return results;
+
 }
 
 

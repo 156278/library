@@ -23,7 +23,7 @@ void Menu::welcomeView() {
         int input = 0;
         std::cin >> input;
 
-        while (input != 1 && input != 2 && input != 3 && input != 4) {
+        while (input < 1 || input > 5) {
             std::cout << "Wrong input, choose a valid key" << std::endl;
             std::cin >> input;
 
@@ -34,6 +34,8 @@ void Menu::welcomeView() {
             addNewBook();
         } else if (input == 3) {
             delBook();
+        } else if (input == 4) {
+            search();
         } else {
             break;
         }
@@ -43,6 +45,25 @@ void Menu::welcomeView() {
 
 void Menu::showAllBooks() {
     this->shelf->showShelf(false);
+    std::cout << "Press any # to continue" << std::endl;
+    int i;
+    std::cin >> i;
+
+}
+
+void Menu::search() {
+    std::cin.ignore();
+    std::cin.clear();
+    std::string searchStr;
+    std::cout << "Plese insert search term: " << std::endl;
+    std::getline(std::cin, searchStr);
+    std::vector<int> results = shelf->search(searchStr);
+    std::cout << "The search term was found in the following books: " << std::endl;
+
+    for (auto i:results) {
+        std::cout << "Book: " << i << std::endl;
+    }
+
     std::cout << "Press any # to continue" << std::endl;
     int i;
     std::cin >> i;
@@ -83,7 +104,7 @@ void Menu::delBook() {
         std::cout << "Plese specify which book shall be deleted (0 to exit): " << std::endl;
         std::cin >> bookNrToDel;
         shelf->delBook(bookNrToDel);
-    }while (bookNrToDel != 0);
+    } while (bookNrToDel != 0);
 }
 
 void Menu::screenBar() {

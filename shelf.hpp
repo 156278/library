@@ -20,7 +20,12 @@ public:
 
     void delBook(int bookNrToDel);
 
+    std::vector<int> search(std::string searchStr);
+
+
 private:
+    int nrOfBooks;
+
     bool checkIfBookExists(Book newBook);
 
     void laodBooks();
