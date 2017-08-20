@@ -23,12 +23,12 @@ public:
 
 
 private:
-    const std::string titel;
-    const std::string author;
-    const std::string pubDate;
-    const std::string publisher;
-    const std::string synopsis;
-    const unsigned int pageCount;
+    std::string titel;
+    std::string author;
+    std::string pubDate;
+    std::string publisher;
+    std::string synopsis;
+    unsigned int pageCount;
 
 
 };

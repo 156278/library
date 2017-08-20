@@ -16,8 +16,9 @@ public:
     addItem(std::string titel, std::string author, std::string pubDate, std::string publisher, std::string synopsis,
             unsigned int pageCount);
 
-    void showShelf();
+    void showShelf(bool delYN);
 
+    void delBook(int bookNrToDel);
 
 private:
     bool checkIfBookExists(Book newBook);
@@ -25,6 +26,7 @@ private:
     void laodBooks();
 
     void saveBooks();
+
 
     std::string filePath;
 

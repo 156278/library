@@ -36,17 +36,22 @@ void Shelf::addItem(std::string titel, std::string author, std::string pubDate, 
 }
 
 
-void Shelf::showShelf() {
+void Shelf::showShelf(bool delYN) {
+
+
     if (shelf.size() < 1) {
+
         std::cout << "Currently no books saved!" << std::endl;
 
     } else {
         for (int i = 0; i < shelf.size(); i++) {
+            if (delYN) {
+                std::cout << "[" << (i + 1) << "] ";
+            }
             shelf[i].showAll();
         }
         std::cout << std::endl;
     }
-
 }
 
 Book Shelf::readLine(std::string line) {
@@ -70,6 +75,15 @@ Book Shelf::readLine(std::string line) {
 
 }
 
+void Shelf::delBook(int bookNrToDel) {
+    if (this->shelf.size() < 1) {
+        std::cout << "Currently no books saved!" << std::endl;
+    } else {
+
+        this->shelf.erase(this->shelf.begin() + (bookNrToDel - 1));
+    }
+}
+
 void Shelf::saveBooks() {
     /*first we delete the content of the file*/
     std::ofstream ofs;
@@ -80,7 +94,8 @@ void Shelf::saveBooks() {
     writeFile.open(filePath);
     for (auto book : shelf) {
         std::string saveLine =
-                book.getTitle() + ";" + book.getAuthor() + ";" + book.getPubDate() + ";" + book.getPublisher() + ";" +
+                book.getTitle() + ";" + book.getAuthor() + ";" + book.getPubDate() + ";" + book.getPublisher() +
+                ";" +
                 book.getSynopsis() + ";" +
                 std::to_string(book.getPageCount()) + "\n";
         writeFile << saveLine;

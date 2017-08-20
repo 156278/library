@@ -23,7 +23,7 @@ void Menu::welcomeView() {
         int input = 0;
         std::cin >> input;
 
-        while (input != 1 && input != 2 && input != 3) {
+        while (input != 1 && input != 2 && input != 3 && input != 4) {
             std::cout << "Wrong input, choose a valid key" << std::endl;
             std::cin >> input;
 
@@ -32,7 +32,8 @@ void Menu::welcomeView() {
             showAllBooks();
         } else if (input == 2) {
             addNewBook();
-
+        } else if (input == 3) {
+            delBook();
         } else {
             break;
         }
@@ -41,7 +42,7 @@ void Menu::welcomeView() {
 }
 
 void Menu::showAllBooks() {
-    this->shelf->showShelf();
+    this->shelf->showShelf(false);
     std::cout << "Press any # to continue" << std::endl;
     int i;
     std::cin >> i;
@@ -73,6 +74,16 @@ void Menu::addNewBook() {
     std::cin >> pageCount;
     shelf->addItem(titel, author, pubDate, publisher, synopsis, pageCount);
 
+}
+
+void Menu::delBook() {
+    int bookNrToDel;
+    do {
+        shelf->showShelf(true);
+        std::cout << "Plese specify which book shall be deleted (0 to exit): " << std::endl;
+        std::cin >> bookNrToDel;
+        shelf->delBook(bookNrToDel);
+    }while (bookNrToDel != 0);
 }
 
 void Menu::screenBar() {
