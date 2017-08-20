@@ -6,69 +6,69 @@
 
 #IncludeRegexTransform: 
 
-/home/gawain/CLionProjects/library/book.cpp
+/home/gawain/gitgawain/library/book.cpp
 iostream
 -
 book.hpp
-/home/gawain/CLionProjects/library/book.hpp
+/home/gawain/gitgawain/library/book.hpp
 
-/home/gawain/CLionProjects/library/book.hpp
+/home/gawain/gitgawain/library/book.hpp
 libraryItem.hpp
-/home/gawain/CLionProjects/library/libraryItem.hpp
+/home/gawain/gitgawain/library/libraryItem.hpp
 
-/home/gawain/CLionProjects/library/libraryItem.cpp
+/home/gawain/gitgawain/library/libraryItem.cpp
 iostream
 -
 libraryItem.hpp
-/home/gawain/CLionProjects/library/libraryItem.hpp
+/home/gawain/gitgawain/library/libraryItem.hpp
 
-/home/gawain/CLionProjects/library/libraryItem.hpp
+/home/gawain/gitgawain/library/libraryItem.hpp
 iosfwd
 -
 string
 -
 
-/home/gawain/CLionProjects/library/main.cpp
+/home/gawain/gitgawain/library/main.cpp
 iostream
 -
 libraryItem.hpp
-/home/gawain/CLionProjects/library/libraryItem.hpp
+/home/gawain/gitgawain/library/libraryItem.hpp
 shelf.hpp
-/home/gawain/CLionProjects/library/shelf.hpp
+/home/gawain/gitgawain/library/shelf.hpp
 book.hpp
-/home/gawain/CLionProjects/library/book.hpp
+/home/gawain/gitgawain/library/book.hpp
 menu.hpp
-/home/gawain/CLionProjects/library/menu.hpp
+/home/gawain/gitgawain/library/menu.hpp
 
-/home/gawain/CLionProjects/library/menu.cpp
+/home/gawain/gitgawain/library/menu.cpp
 iostream
 -
 climits
 -
 menu.hpp
-/home/gawain/CLionProjects/library/menu.hpp
+/home/gawain/gitgawain/library/menu.hpp
 shelf.hpp
-/home/gawain/CLionProjects/library/shelf.hpp
+/home/gawain/gitgawain/library/shelf.hpp
 
-/home/gawain/CLionProjects/library/menu.hpp
+/home/gawain/gitgawain/library/menu.hpp
 shelf.hpp
-/home/gawain/CLionProjects/library/shelf.hpp
+/home/gawain/gitgawain/library/shelf.hpp
 
-/home/gawain/CLionProjects/library/shelf.cpp
+/home/gawain/gitgawain/library/shelf.cpp
 iostream
 -
 fstream
 -
 shelf.hpp
-/home/gawain/CLionProjects/library/shelf.hpp
+/home/gawain/gitgawain/library/shelf.hpp
 book.hpp
-/home/gawain/CLionProjects/library/book.hpp
+/home/gawain/gitgawain/library/book.hpp
 
-/home/gawain/CLionProjects/library/shelf.hpp
+/home/gawain/gitgawain/library/shelf.hpp
 vector
 -
 libraryItem.hpp
-/home/gawain/CLionProjects/library/libraryItem.hpp
+/home/gawain/gitgawain/library/libraryItem.hpp
 book.hpp
-/home/gawain/CLionProjects/library/book.hpp
+/home/gawain/gitgawain/library/book.hpp
 

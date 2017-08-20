@@ -2,4 +2,5 @@ GoT;George R.R. Martin;08/08/2008;Bantam;ERERer;12313
 Buch;Author;2005-07-07;Publisher;Synopsis;100000
 The Sound and the Fury;William Faulkner;2003-01-22;Me;weird;213121231
 Hans;Christian;10/10/2008;Anderson;;2
-Grans;jklö;10/10/2008;brta;gut;5484181891
+Grans;jklö;10/10/2008;brta;gut;54841891
+No Easy Day;Mark Owen;06/09/2012;Manz;ok;326
