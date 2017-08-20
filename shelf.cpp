@@ -36,14 +36,16 @@ void Shelf::addItem(std::string titel, std::string author, std::string pubDate, 
 }
 
 
-
-
 void Shelf::showShelf() {
-    for (int i = 0; i < shelf.size(); i++) {
-        shelf[i].showAll();
+    if (shelf.size() < 1) {
+        std::cout << "Currently no books saved!" << std::endl;
+
+    } else {
+        for (int i = 0; i < shelf.size(); i++) {
+            shelf[i].showAll();
+        }
         std::cout << std::endl;
     }
-
 
 }
 

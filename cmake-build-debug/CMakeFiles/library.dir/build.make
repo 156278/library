@@ -43,10 +43,10 @@ RM = /home/gawain/.clion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gawain/gitgawain/library
+CMAKE_SOURCE_DIR = /home/gawain/CLionProjects/library
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gawain/gitgawain/library/cmake-build-debug
+CMAKE_BINARY_DIR = /home/gawain/CLionProjects/library/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/library.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/library.dir/flags.make
 
 CMakeFiles/library.dir/main.cpp.o: CMakeFiles/library.dir/flags.make
 CMakeFiles/library.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gawain/gitgawain/library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/library.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library.dir/main.cpp.o -c /home/gawain/gitgawain/library/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gawain/CLionProjects/library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/library.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library.dir/main.cpp.o -c /home/gawain/CLionProjects/library/main.cpp
 
 CMakeFiles/library.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/library.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gawain/gitgawain/library/main.cpp > CMakeFiles/library.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gawain/CLionProjects/library/main.cpp > CMakeFiles/library.dir/main.cpp.i
 
 CMakeFiles/library.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/library.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gawain/gitgawain/library/main.cpp -o CMakeFiles/library.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gawain/CLionProjects/library/main.cpp -o CMakeFiles/library.dir/main.cpp.s
 
 CMakeFiles/library.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/library.dir/main.cpp.o.provides.build: CMakeFiles/library.dir/main.cp
 
 CMakeFiles/library.dir/libraryItem.cpp.o: CMakeFiles/library.dir/flags.make
 CMakeFiles/library.dir/libraryItem.cpp.o: ../libraryItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gawain/gitgawain/library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/library.dir/libraryItem.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library.dir/libraryItem.cpp.o -c /home/gawain/gitgawain/library/libraryItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gawain/CLionProjects/library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/library.dir/libraryItem.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library.dir/libraryItem.cpp.o -c /home/gawain/CLionProjects/library/libraryItem.cpp
 
 CMakeFiles/library.dir/libraryItem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/library.dir/libraryItem.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gawain/gitgawain/library/libraryItem.cpp > CMakeFiles/library.dir/libraryItem.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gawain/CLionProjects/library/libraryItem.cpp > CMakeFiles/library.dir/libraryItem.cpp.i
 
 CMakeFiles/library.dir/libraryItem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/library.dir/libraryItem.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gawain/gitgawain/library/libraryItem.cpp -o CMakeFiles/library.dir/libraryItem.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gawain/CLionProjects/library/libraryItem.cpp -o CMakeFiles/library.dir/libraryItem.cpp.s
 
 CMakeFiles/library.dir/libraryItem.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/library.dir/libraryItem.cpp.o.provides.build: CMakeFiles/library.dir/
 
 CMakeFiles/library.dir/book.cpp.o: CMakeFiles/library.dir/flags.make
 CMakeFiles/library.dir/book.cpp.o: ../book.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gawain/gitgawain/library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/library.dir/book.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library.dir/book.cpp.o -c /home/gawain/gitgawain/library/book.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gawain/CLionProjects/library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/library.dir/book.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library.dir/book.cpp.o -c /home/gawain/CLionProjects/library/book.cpp
 
 CMakeFiles/library.dir/book.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/library.dir/book.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gawain/gitgawain/library/book.cpp > CMakeFiles/library.dir/book.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gawain/CLionProjects/library/book.cpp > CMakeFiles/library.dir/book.cpp.i
 
 CMakeFiles/library.dir/book.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/library.dir/book.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gawain/gitgawain/library/book.cpp -o CMakeFiles/library.dir/book.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gawain/CLionProjects/library/book.cpp -o CMakeFiles/library.dir/book.cpp.s
 
 CMakeFiles/library.dir/book.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/library.dir/book.cpp.o.provides.build: CMakeFiles/library.dir/book.cp
 
 CMakeFiles/library.dir/shelf.cpp.o: CMakeFiles/library.dir/flags.make
 CMakeFiles/library.dir/shelf.cpp.o: ../shelf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gawain/gitgawain/library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/library.dir/shelf.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library.dir/shelf.cpp.o -c /home/gawain/gitgawain/library/shelf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gawain/CLionProjects/library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/library.dir/shelf.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library.dir/shelf.cpp.o -c /home/gawain/CLionProjects/library/shelf.cpp
 
 CMakeFiles/library.dir/shelf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/library.dir/shelf.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gawain/gitgawain/library/shelf.cpp > CMakeFiles/library.dir/shelf.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gawain/CLionProjects/library/shelf.cpp > CMakeFiles/library.dir/shelf.cpp.i
 
 CMakeFiles/library.dir/shelf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/library.dir/shelf.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gawain/gitgawain/library/shelf.cpp -o CMakeFiles/library.dir/shelf.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gawain/CLionProjects/library/shelf.cpp -o CMakeFiles/library.dir/shelf.cpp.s
 
 CMakeFiles/library.dir/shelf.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/library.dir/shelf.cpp.o.provides.build: CMakeFiles/library.dir/shelf.
 
 CMakeFiles/library.dir/menu.cpp.o: CMakeFiles/library.dir/flags.make
 CMakeFiles/library.dir/menu.cpp.o: ../menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gawain/gitgawain/library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/library.dir/menu.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library.dir/menu.cpp.o -c /home/gawain/gitgawain/library/menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gawain/CLionProjects/library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/library.dir/menu.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/library.dir/menu.cpp.o -c /home/gawain/CLionProjects/library/menu.cpp
 
 CMakeFiles/library.dir/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/library.dir/menu.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gawain/gitgawain/library/menu.cpp > CMakeFiles/library.dir/menu.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gawain/CLionProjects/library/menu.cpp > CMakeFiles/library.dir/menu.cpp.i
 
 CMakeFiles/library.dir/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/library.dir/menu.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gawain/gitgawain/library/menu.cpp -o CMakeFiles/library.dir/menu.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gawain/CLionProjects/library/menu.cpp -o CMakeFiles/library.dir/menu.cpp.s
 
 CMakeFiles/library.dir/menu.cpp.o.requires:
 
@@ -195,7 +195,7 @@ library: CMakeFiles/library.dir/shelf.cpp.o
 library: CMakeFiles/library.dir/menu.cpp.o
 library: CMakeFiles/library.dir/build.make
 library: CMakeFiles/library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gawain/gitgawain/library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gawain/CLionProjects/library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable library"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +216,6 @@ CMakeFiles/library.dir/clean:
 .PHONY : CMakeFiles/library.dir/clean
 
 CMakeFiles/library.dir/depend:
-	cd /home/gawain/gitgawain/library/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gawain/gitgawain/library /home/gawain/gitgawain/library /home/gawain/gitgawain/library/cmake-build-debug /home/gawain/gitgawain/library/cmake-build-debug /home/gawain/gitgawain/library/cmake-build-debug/CMakeFiles/library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gawain/CLionProjects/library/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gawain/CLionProjects/library /home/gawain/CLionProjects/library /home/gawain/CLionProjects/library/cmake-build-debug /home/gawain/CLionProjects/library/cmake-build-debug /home/gawain/CLionProjects/library/cmake-build-debug/CMakeFiles/library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/library.dir/depend
 

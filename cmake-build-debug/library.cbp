@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/gawain/gitgawain/library/cmake-build-debug"/>
+				<Option working_dir="/home/gawain/CLionProjects/library/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/gawain/gitgawain/library/cmake-build-debug"/>
+				<Option working_dir="/home/gawain/CLionProjects/library/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/gawain/gitgawain/library/cmake-build-debug"/>
+				<Option working_dir="/home/gawain/CLionProjects/library/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="library">
-				<Option output="/home/gawain/gitgawain/library/cmake-build-debug/library" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gawain/gitgawain/library/cmake-build-debug"/>
+				<Option output="/home/gawain/CLionProjects/library/cmake-build-debug/library" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gawain/CLionProjects/library/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 library"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 library"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="library/fast">
-				<Option output="/home/gawain/gitgawain/library/cmake-build-debug/library" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gawain/gitgawain/library/cmake-build-debug"/>
+				<Option output="/home/gawain/CLionProjects/library/cmake-build-debug/library" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gawain/CLionProjects/library/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,41 +77,41 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 library/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gawain/gitgawain/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 library/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gawain/CLionProjects/library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/gawain/gitgawain/library/book.cpp">
+		<Unit filename="/home/gawain/CLionProjects/library/book.cpp">
 			<Option target="library"/>
 		</Unit>
-		<Unit filename="/home/gawain/gitgawain/library/book.hpp">
+		<Unit filename="/home/gawain/CLionProjects/library/book.hpp">
 			<Option target="library"/>
 		</Unit>
-		<Unit filename="/home/gawain/gitgawain/library/libraryItem.cpp">
+		<Unit filename="/home/gawain/CLionProjects/library/libraryItem.cpp">
 			<Option target="library"/>
 		</Unit>
-		<Unit filename="/home/gawain/gitgawain/library/libraryItem.hpp">
+		<Unit filename="/home/gawain/CLionProjects/library/libraryItem.hpp">
 			<Option target="library"/>
 		</Unit>
-		<Unit filename="/home/gawain/gitgawain/library/main.cpp">
+		<Unit filename="/home/gawain/CLionProjects/library/main.cpp">
 			<Option target="library"/>
 		</Unit>
-		<Unit filename="/home/gawain/gitgawain/library/menu.cpp">
+		<Unit filename="/home/gawain/CLionProjects/library/menu.cpp">
 			<Option target="library"/>
 		</Unit>
-		<Unit filename="/home/gawain/gitgawain/library/menu.hpp">
+		<Unit filename="/home/gawain/CLionProjects/library/menu.hpp">
 			<Option target="library"/>
 		</Unit>
-		<Unit filename="/home/gawain/gitgawain/library/shelf.cpp">
+		<Unit filename="/home/gawain/CLionProjects/library/shelf.cpp">
 			<Option target="library"/>
 		</Unit>
-		<Unit filename="/home/gawain/gitgawain/library/shelf.hpp">
+		<Unit filename="/home/gawain/CLionProjects/library/shelf.hpp">
 			<Option target="library"/>
 		</Unit>
-		<Unit filename="/home/gawain/gitgawain/library/CMakeLists.txt">
+		<Unit filename="/home/gawain/CLionProjects/library/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

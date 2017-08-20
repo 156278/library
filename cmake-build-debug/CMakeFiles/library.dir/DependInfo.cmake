@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gawain/gitgawain/library/book.cpp" "/home/gawain/gitgawain/library/cmake-build-debug/CMakeFiles/library.dir/book.cpp.o"
-  "/home/gawain/gitgawain/library/libraryItem.cpp" "/home/gawain/gitgawain/library/cmake-build-debug/CMakeFiles/library.dir/libraryItem.cpp.o"
-  "/home/gawain/gitgawain/library/main.cpp" "/home/gawain/gitgawain/library/cmake-build-debug/CMakeFiles/library.dir/main.cpp.o"
-  "/home/gawain/gitgawain/library/menu.cpp" "/home/gawain/gitgawain/library/cmake-build-debug/CMakeFiles/library.dir/menu.cpp.o"
-  "/home/gawain/gitgawain/library/shelf.cpp" "/home/gawain/gitgawain/library/cmake-build-debug/CMakeFiles/library.dir/shelf.cpp.o"
+  "/home/gawain/CLionProjects/library/book.cpp" "/home/gawain/CLionProjects/library/cmake-build-debug/CMakeFiles/library.dir/book.cpp.o"
+  "/home/gawain/CLionProjects/library/libraryItem.cpp" "/home/gawain/CLionProjects/library/cmake-build-debug/CMakeFiles/library.dir/libraryItem.cpp.o"
+  "/home/gawain/CLionProjects/library/main.cpp" "/home/gawain/CLionProjects/library/cmake-build-debug/CMakeFiles/library.dir/main.cpp.o"
+  "/home/gawain/CLionProjects/library/menu.cpp" "/home/gawain/CLionProjects/library/cmake-build-debug/CMakeFiles/library.dir/menu.cpp.o"
+  "/home/gawain/CLionProjects/library/shelf.cpp" "/home/gawain/CLionProjects/library/cmake-build-debug/CMakeFiles/library.dir/shelf.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
